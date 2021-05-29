@@ -6,7 +6,7 @@ description         : >-
                       and never broke production.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : cesarviana/cesarviana.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : YoussefRaafatNasry/portfolYOU
+#remote_theme        : YoussefRaafatNasry/portfolYOU
 
 
 ### Plugins ###
@@ -51,11 +51,6 @@ analytics:
 defaults:
   - scope:
       path: ""
-      type: "projects"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
       type: "posts"
     values:
       comments: false                                   # Set to true to enable disqus comments
@@ -67,3 +62,4 @@ exclude:
   - LICENSE
   - "*.log"
   - posts_examples
+  - project_examples  

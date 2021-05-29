@@ -3,9 +3,9 @@ title: Creating a countdown timer with VueJS
 tags: [VueJS, JavaScript, Web Development]
 style: border
 color: primary
-description: A quick test.
+description: Describing the creation of a countdown timer.
 ---
 
-# Mental organization
+# Objective
 
-I feel starting many things, and finishing anything. Actually, I stopped doing things like drawing.
+Create a countdown timer. The timer will be zeroed in the birthday of one of our customers.

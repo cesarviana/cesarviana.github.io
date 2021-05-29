@@ -1,11 +1,31 @@
 - name: HTML5/CSS3
   percentage: 90
-  color: danger
+  color: primary
 
-- name: Go
-  percentage: 80
-  color:
-
-- name: Python
+- name: JavaScript
   percentage: 70
-  color: secondary
+  color: primary
+
+- name: VueJS
+  percentage: 65
+  color: primary
+  
+- name: Java
+  percentage: 80
+  color: primary
+
+- name: PHP
+  percentage: 60
+  color: primary
+
+- name: Kotlin
+  percentage: 60
+  color: primary
+
+- name: MySQL
+  percentage: 70
+  color: primary
+
+- name: PostgreSQL
+  percentage: 60
+  color: primary
