@@ -1,11 +1,22 @@
 <div class="col mt-4">
+  <h2 class="mb-3">{{ include.title }}</h2>
   <div class="timeline-body bg-themed">
-    {% for item in site.data.timeline %}
+    {% for item in include.source %}
       <div class="timeline-item">
         <div class="content">
           <h2>{{ item.title }}</h2>
-          <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
+          <h6 class="date">{{ item.from }} — {{ item.to }} </h6>
+          <h6><a href="{{ item.link }}" target="_blank">{{ item.link }}</a></h6>
+          {% if item.description %}
           <p>{{ item.description }}</p>
+          {% endif %}
+
+          <ul>
+            {% for task in item.tasks %}
+              <li>{{ task }}</li>
+            {% endfor %}
+          </ul>
+
         </div>
       </div>
     {% endfor %}

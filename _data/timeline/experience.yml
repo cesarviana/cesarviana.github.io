@@ -1,0 +1,31 @@
+- title: Full-stack Developer, SmartCoders (self-employed)
+  from: 2019
+  to: present
+  description: I and my twin brother are solving problems for small local companies, that need software solutions. One example is TVGaspar, who is a news and video-maker company, that needs a specific software. Here we create solutions using VueJS, Docker, Kotlin, Android and Postgres.
+  tasks:
+    - Develop API's (Javalin Framework, Kotlin language, Postgres database)
+    - Build frontend using Nuxt
+    - We use Git and Gitlab for source control
+    - We use Docker to keep it running in a DigitalOcean Server
+  link: https://tvgaspar.com.br
+
+- title: Software Engineer, DigiDoc
+  from: 2013
+  to: 2019
+  description: >
+    I was responsible for develop web and desktop applications for electronic document management. In the process I had to gather requirements from users following an user centered approach. In my final year I was building a backend API using NodeJS and Express. In this position I guided the work of a young man, who was just beginning.
+  tasks: 
+    - Develop web and desktop applications for electronic document management.
+    - Gather requirements from users following an user centered approach
+    - Create backend API using NodeJS and Express.
+    - Model database schemas (MySQL)  
+  link: https://digidoc.inf.br
+
+- title: Scholarship Holder
+  from: 2011
+  to: 2012
+  tasks: 
+    - Monitor computer lab open to the community, and assist users in difficulties using the computer
+    - Collect and analyze data regarding the use of the laboratory
+    - Write a scientific article on the use of the laboratory
+  link: https://www.ifsc.edu.br/web/campus-gaspar
