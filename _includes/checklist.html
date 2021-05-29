@@ -1,0 +1,11 @@
+<ul style="list-style-type: none;">
+    {% for item in include.items %}
+    <li>
+        <input type="checkbox" class="mr-3"
+            {% if item.checked %}
+            checked
+            {% endif %}
+        >{{ item.name }}
+    </li>
+    {% endfor %}
+</ul>
