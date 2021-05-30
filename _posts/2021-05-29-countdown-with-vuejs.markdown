@@ -54,7 +54,7 @@ export default {
 ```
 We can se a couple of thinks there. A `date-field` element, an interval handled where the component is created and destroyed, a `tickTimer()` function. We can also see the use of `momentjs`.
 
-The `date-field` component has three pros: singular, plural, and value. If the value is 1, the singular word is used, like 1 mês, and 2 meses. 
+The `date-field` component has three props: singular, plural, and value. If the value is 1, the singular word is used, like 1 mês, and 2 meses. 
 
 ```html
 <template>
@@ -64,7 +64,7 @@ The `date-field` component has three pros: singular, plural, and value. If the v
     </div>
 </template>
 ```
-The `setInterval` starts when the component is created, and thicks the `tickTimer` every second. This function sets the component data (months, days, hours, minutes and seconds) as the remaining time between now and targetDate.
+The `setInterval` starts when the component is created, and ticks the `tickTimer` every second. This function sets the component data (months, days, hours, minutes and seconds) as the remaining time between now and targetDate.
 
 {% include elements/figure.html image='https://i.ibb.co/XzMh3S1/banner.png' caption='Banner in production' %}
 
@@ -74,7 +74,7 @@ Of course, until here just the countdown was done. The banner also has text wrap
     - CountdownTimer
         - CountdownDateField
 
-The last thing that is worth to mention is the use of css classes. Without the `scoped` property, the style affects other components. So, the `BirthdayBanner` can styling the `CountdownDateField`.
+The last thing that is worth to mention is the use of css classes. Without the `scoped` property, the style affects other components. So, the `BirthdayBanner` can styles the `CountdownDateField`.
 
 `BirthdayBanner.vue`
 ```css
