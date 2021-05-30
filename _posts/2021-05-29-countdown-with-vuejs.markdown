@@ -66,7 +66,7 @@ The `date-field` component has three pros: singular, plural, and value. If the v
 ```
 The `setInterval` starts when the component is created, and thicks the `tickTimer` every second. This function sets the component data (months, days, hours, minutes and seconds) as the remaining time between now and targetDate.
 
-![](https://i.ibb.co/vhMf0wP/banner.png)
+{% include elements/figure.html image='https://i.ibb.co/XzMh3S1/banner.png' caption='Banner in production' %}
 
 Of course, until here just the countdown was done. The banner also has text wrapping the timer. So, the final component structure was that:
 
