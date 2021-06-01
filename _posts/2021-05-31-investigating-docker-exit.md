@@ -1,5 +1,5 @@
 ---
-title: Docker exiting
+title: "Investigation of problem: Docker exiting"
 tags: [Docker, Linux]
 color: primary
 description: Investigation of how an docker container is exiting
@@ -59,3 +59,8 @@ tickTimer() {
     }
 }
 ```
+What I learned:
+- `docker stats`
+- My guess was wrong. The problems was in front, not in back.
+
+The memory used by the process seems to be slowly becoming higher... From 2.04% in the morning, to 2.14% this afternoon. Maybe the problems is still there.
