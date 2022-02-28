@@ -1,5 +1,5 @@
   - name: Finish masters
-    checked: false
+    checked: true
   - name: Buy or build a house for my family
     checked: false
   - name: Be financially independent
